@@ -1,0 +1,90 @@
+body {
+	font-family:Arial, Tahoma, Helvetica, sans-serif; margin:0;
+}
+
+h1 {margin: 15px 0;}
+
+div {display: flex; flex-direction: column;}
+
+span {color: red;}
+
+#wrap {display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#contact-wrapper {
+	padding:20px;
+	background-color: #b0c4de24;
+	box-shadow: 0 4px 24px rgba(0,0,0,0.25);
+}
+
+#contact-wrapper div {
+	margin:1em 0;
+}
+
+#contact-wrapper label {
+	margin-bottom: 12px;
+	font-size:16px;
+}
+
+form#contactform {
+	width: 400px;
+}
+
+form#contactform input {
+	padding:5px;
+	font-size:16px;
+	color:#333;
+}
+
+form#contactform textarea {
+	padding:0.6em 0.5em 0.7em;
+	font-size:110%;
+}
+
+#submit {display: flex; justify-content: center;}
+
+input[type="submit"] {
+	margin-top: 15px;
+	padding:15px 0 !important;
+	background-color: #fcdd43;
+	border: solid 2px #fcbb43;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+	color: #8f6311 !important;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+input[type="submit"]:hover {
+	box-shadow: 0 0 30px rgb(252, 221, 81);
+	transition-duration: .2s;
+}
+
+.error, .success {
+	padding: 8px;
+	font-weight: 600;
+	font-size: 16px;
+	text-align: center;
+	line-height:1.5;
+}
+
+.error {
+	margin-bottom: 10px;
+	border: solid 2px #ff3800;
+	background-color: #ffbf9c;
+	color: #c61b08;
+}
+
+.success {
+	margin: 0 !important;
+	border: solid 2px #14d414;
+	background-color: #b9ffa1;
+	color: #0c7b0c;
+}
+
+.success a {color: black;}
+.success a:hover {
+	transition-duration: .2s;
+	text-decoration: none;
+}
